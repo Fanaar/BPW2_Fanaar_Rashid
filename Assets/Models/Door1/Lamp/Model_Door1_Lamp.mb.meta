@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 49d45b9cdf471304b9e02c0ba38f9ebf
+guid: c000f741feec7dd49afa8a7d1b138f42
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 2fce40fed8a9e97448b8c25fe4d6950f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Lamp_Frame
+    second: {fileID: 2100000, guid: 2fce40fed8a9e97448b8c25fe4d6950f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_Lamp_Inner
+    second: {fileID: 2100000, guid: 13387ec4900f88b49babd3f12988e6f9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
