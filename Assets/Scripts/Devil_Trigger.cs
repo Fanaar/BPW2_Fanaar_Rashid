@@ -7,6 +7,10 @@ public class Devil_Trigger : MonoBehaviour
 {
     [SerializeField] GameObject Angel;
     [SerializeField] private Material Switched_Wall_Material;
+    [SerializeField] private AudioSource Devil_Music;
+    [SerializeField] private AudioSource Angel_Music;
+
+
 
     private List<Wall> walls = new List<Wall>();
 
@@ -16,6 +20,7 @@ public class Devil_Trigger : MonoBehaviour
         FindObjectsOfType<Wall>()
         .Select(wall => wall)
         .ToList();
+
     }
 
     // Update is called once per frame
@@ -30,6 +35,9 @@ public class Devil_Trigger : MonoBehaviour
             print("Collision Detected");        
             Destroy(Angel);
 
+            Angel_Music.Stop();
+            Devil_Music.Play();
+            
             foreach (Wall wall in walls) {
 
                 wall.GetComponent<MeshRenderer>().material = Switched_Wall_Material;
