@@ -8860,7 +8860,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 942d0408fc8d08040b61e9f45d420cd6, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2302643b962050f4bb8193807a4aef50, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9028,7 +9028,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 942d0408fc8d08040b61e9f45d420cd6, type: 2}
   m_audioClip: {fileID: 8300000, guid: c1125146bab3ac64785d17722798727d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10736,6 +10736,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ce99630da585b428ee58293eb1dd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &562103644
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562103639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7466839392862844502, guid: 7739f28ed909973408f1e8c0f55810a2, type: 3}
 --- !u!1 &562913923 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5497335230023622464, guid: 3410033380ceb514aa8bac3e5f9c58f7, type: 3}
@@ -13397,6 +13411,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ce99630da585b428ee58293eb1dd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &711665345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711665340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7466839392862844502, guid: 7739f28ed909973408f1e8c0f55810a2, type: 3}
 --- !u!1 &715549140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1269193835146047940, guid: 3410033380ceb514aa8bac3e5f9c58f7, type: 3}
@@ -14416,8 +14444,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792663609}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.26, y: -0.31900024, z: 27.728003}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 5.0777, y: -0.31900024, z: 27.728003}
+  m_LocalScale: {x: 0.96528, y: 1, z: 1}
   m_Children:
   - {fileID: 1805464816}
   - {fileID: 2135530489}
@@ -31295,6 +31323,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ce99630da585b428ee58293eb1dd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &1636139258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636139253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7466839392862844502, guid: 7739f28ed909973408f1e8c0f55810a2, type: 3}
 --- !u!1 &1636603094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4569738680882601956, guid: 3410033380ceb514aa8bac3e5f9c58f7, type: 3}
@@ -34962,8 +35004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 7
   airControlRate: 2
-  jumpSpeed: 10
-  jumpDuration: 0.2
+  jumpSpeed: 0
+  jumpDuration: 0
   airFriction: 0.5
   groundFriction: 100
   gravity: 30
